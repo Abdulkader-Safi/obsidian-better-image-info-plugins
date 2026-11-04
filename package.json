@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "better-image-info",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "Image size, dimensions and format in the Obsidian status bar",
 	"main": "main.js",
 	"type": "module",
 	"scripts": {
