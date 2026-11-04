@@ -1,7 +1,7 @@
 {
 	"name": "better-image-info",
 	"version": "1.0.0",
-	"description": "Image size, dimensions and format in the Obsidian status bar",
+	"description": "Show the size and pixel dimensions of the open image in the status bar.",
 	"main": "main.js",
 	"type": "module",
 	"scripts": {
