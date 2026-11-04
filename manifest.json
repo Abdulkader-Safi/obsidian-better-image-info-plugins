@@ -3,7 +3,8 @@
 	"name": "Better Image Info",
 	"version": "1.0.0",
 	"minAppVersion": "1.0.0",
-	"description": "Shows file size, dimensions and format of the open image in the status bar.",
+	"description": "Show the size and pixel dimensions of the open image in the status bar.",
 	"author": "Abdulkader Safi",
+	"authorUrl": "https://github.com/Abdulkader-Safi",
 	"isDesktopOnly": false
 }
