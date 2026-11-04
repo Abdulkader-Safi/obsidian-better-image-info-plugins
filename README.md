@@ -1,30 +1,27 @@
 # better-image-info
 
-An Obsidian plugin that shows details about the image you have open in the status bar:
+Open an image in Obsidian and the status bar tells you what it is:
 
 ```
 1.24 MB  1920×1080  PNG
 ```
 
-You get the file size (B, KB or MB), the pixel dimensions and the format. When you open a note instead, the text goes away.
+That line is the file size, then width × height in pixels, then the format. Open a note and it disappears.
 
-Supported formats: `png` `jpg` `jpeg` `webp` `gif` `bmp` `svg` `avif`. An SVG with no fixed width or height shows only size and format.
+It works with `png` `jpg` `jpeg` `webp` `gif` `bmp` `svg` `avif`. An SVG without a fixed width and height has no pixel size, so you only see its file size and format.
 
-The status bar is not shown on mobile, so the plugin only does something on desktop.
+Desktop only in practice. Obsidian mobile has no status bar.
 
 ## Install manually
 
-1. Run `npm install` and `npm run build`.
+1. Run `npm install`, then `npm run build`.
 2. Copy `main.js` and `manifest.json` into `<Vault>/.obsidian/plugins/better-image-info/`.
-3. Reload Obsidian and turn on **Better Image Info** in **Settings → Community plugins**.
+3. Reload Obsidian.
+4. Turn on **Better Image Info** in Settings → Community plugins.
 
 ## Development
 
-- `npm run dev` rebuilds on every change.
-- `npm run build` makes a production build.
-- `npm run lint` runs ESLint.
-
-All the code is in `src/main.ts`.
+`npm run dev` rebuilds on every save. `npm run build` makes the release build, and `npm run lint` runs ESLint. The whole plugin is about 40 lines in `src/main.ts`.
 
 ## License
 
